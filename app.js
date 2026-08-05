@@ -18,7 +18,10 @@ document.getElementById("createTicket").addEventListener("click", () => {
 
 document.getElementById("knowledgeBase").addEventListener("click", () => {
 
-    alert("Knowledge Base will be available soon.");
+    window.open(
+        "https://platipusgaming.atlassian.net/wiki/spaces/AS/overview",
+        "_blank"
+    );
 
 });
 
@@ -29,6 +32,9 @@ document.getElementById("knowledgeBase").addEventListener("click", () => {
 
 document.getElementById("contactIT").addEventListener("click", () => {
 
-    alert("Contact IT will be available soon.");
+    window.open(
+        "https://teams.microsoft.com/l/channel/19%3Aab7a6afbddd4491394c829b5a893bae8%40thread.tacv2/Admin%20Request?groupId=36f02681-972a-4eeb-960f-32377b14de90&tenantId=6620c934-380a-4f91-a6c0-e487c5e6f8a9",
+        "_blank"
+    );
 
 });
