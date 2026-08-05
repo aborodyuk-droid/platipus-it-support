@@ -2,7 +2,7 @@
 // Create IT Request
 // ===============================
 
-document.getElementById("createRequest").addEventListener("click", () => {
+document.getElementById("createTicket").addEventListener("click", () => {
 
     window.location.href =
         "https://platipus.myjetbrains.com/youtrack/form/cc5097c4-529b-4903-be60-1ae1e8060f07";
