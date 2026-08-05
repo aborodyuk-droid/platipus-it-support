@@ -1,20 +1,32 @@
-document.getElementById("createTicket").onclick = function () {
+// ===============================
+// Create IT Request
+// ===============================
 
-    window.open(
-        "https://platipus.myjetbrains.com/youtrack/form/cc5097c4-529b-4903-be60-1ae1e8060f07",
-        "_blank"
-    );
+document.getElementById("createRequest").addEventListener("click", () => {
 
-};
+    window.location.href =
+        "https://platipus.myjetbrains.com/youtrack/form/cc5097c4-529b-4903-be60-1ae1e8060f07";
 
-document.getElementById("knowledgeBase").onclick = function () {
+});
+
+
+// ===============================
+// Knowledge Base
+// ===============================
+
+document.getElementById("knowledgeBase").addEventListener("click", () => {
 
     alert("Knowledge Base will be available soon.");
 
-};
+});
 
-document.getElementById("contactIT").onclick = function () {
 
-    alert("Contact IT feature will be available soon.");
+// ===============================
+// Contact IT
+// ===============================
 
-};
+document.getElementById("contactIT").addEventListener("click", () => {
+
+    alert("Contact IT will be available soon.");
+
+});
