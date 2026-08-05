@@ -1,26 +1,17 @@
-// ===============================
-// Create IT Request
-// ===============================
-
 document.getElementById("createTicket").addEventListener("click", () => {
-
-    window.location.href = "https://www.google.com";
-
+    window.open(
+        "https://www.google.com",
+        "_blank"
+    );
 });
-
-
-// ===============================
-// Knowledge Base
-// ===============================
 
 document.getElementById("knowledgeBase").addEventListener("click", () => {
-
-    alert("Knowledge Base will be available soon.");
-
+    alert("Knowledge Base");
 });
 
-
-// ===============================
+document.getElementById("contactIT").addEventListener("click", () => {
+    alert("Contact IT");
+});// ===============================
 // Contact IT
 // ===============================
 
