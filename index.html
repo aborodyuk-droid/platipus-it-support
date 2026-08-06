@@ -2,42 +2,84 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Platipus IT Portal</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <img src="images/logo.png" class="logo" alt="Platipus Logo">
+    <div class="header">
+
+        <img src="images/logo.png" class="logo" alt="Platipus">
 
         <h1>Platipus IT Portal</h1>
 
-        <p class="subtitle">
-            Welcome to IT Support
+        <p>
+            Fast access to IT services
         </p>
-
-        <div class="separator"></div>
-
-        <button id="createTicket">
-            🎫 Create IT Request
-        </button>
-
-        <button id="knowledgeBase">
-            📚 Knowledge Base
-        </button>
-
-        <button id="contactIT">
-            💬 Contact IT
-        </button>
 
     </div>
 
-    <script src="app.js"></script>
+
+    <div class="cards">
+
+        <div class="card" id="createTicket">
+
+            <div class="icon">🎫</div>
+
+            <div class="content">
+
+                <h2>Create IT Request</h2>
+
+                <p>Create a new support request in YouTrack</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="card" id="knowledgeBase">
+
+            <div class="icon">📚</div>
+
+            <div class="content">
+
+                <h2>Knowledge Base</h2>
+
+                <p>Documentation, manuals and guides</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="card" id="contactIT">
+
+            <div class="icon">💬</div>
+
+            <div class="content">
+
+                <h2>Contact IT</h2>
+
+                <p>Open Admin Request channel</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
 
 </body>
 
