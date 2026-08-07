@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.21/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.21",
+  "version": "1.0.0",
+  "id": "f8e5ae9a-1bdb-4fb2-95ee-7150adfb6ed7",
+  "packageName": "com.platipus.itsupport",
+  "developer": {
+    "name": "Platipus",
+    "websiteUrl": "https://aborodyuk-droid.github.io/platipus-it-support/",
+    "privacyUrl": "https://aborodyuk-droid.github.io/platipus-it-support/",
+    "termsOfUseUrl": "https://aborodyuk-droid.github.io/platipus-it-support/"
+  },
+  "name": {
+    "short": "Platipus IT Support",
+    "full": "Platipus IT Support"
+  },
+  "description": {
+    "short": "Internal IT portal",
+    "full": "Internal IT portal for submitting IT requests and accessing IT services."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#E53935",
+  "staticTabs": [
+    {
+      "entityId": "home",
+      "name": "Home",
+      "contentUrl": "https://aborodyuk-droid.github.io/platipus-it-support/",
+      "websiteUrl": "https://aborodyuk-droid.github.io/platipus-it-support/"
+    }
+  ],
+  "personalTabs": [],
+  "permissions": [
+    "identity"
+  ],
+  "validDomains": [
+    "aborodyuk-droid.github.io"
+  ]
+}
